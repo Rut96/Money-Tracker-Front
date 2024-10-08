@@ -1,3 +1,35 @@
 .Layout {
-	background-color: aqua;
+    background-color: #ebf4f7;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.upper-info {
+    /* border: 1px solid;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 50px; */
+
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: auto auto auto;
+    gap: 70px;
+    margin-bottom: 20px;
+    margin-left: 7%;
+
+    height: 300px;
+}
+
+.upper-info > div {
+    height: 100%;
+} 
+
+.bottom-info {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
